@@ -3,9 +3,32 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
   },
   "dependencies": {
-    "react-native": "0.79.0"
+    "@react-navigation/native": "^7.1.6",
+    "@react-navigation/native-stack": "^7.3.10",
+    "@reduxjs/toolkit": "^2.6.1",
+    "axios": "^1.8.4",
+    "expo": "^52.0.46",
+    "nativewind": "^4.1.23",
+    "react-native": "0.79.0",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-screens": "^4.10.0",
+    "react-native-svg": "^15.11.2",
+    "react-redux": "^9.2.0"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "^18.0.0",
+    "@testing-library/react-native": "^13.2.0",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^19.1.2",
+    "@types/react-native": "^0.73.0",
+    "jest": "^29.7.0",
+    "metro-react-native-babel-preset": "^0.77.0",
+    "react-test-renderer": "^19.1.0",
+    "typescript": "^5.8.3"
   }
 }
