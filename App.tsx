@@ -78,10 +78,9 @@ function App(): React.JSX.Element {
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
-      <ScrollView
-        style={backgroundStyle}>
+      <ScrollView style={backgroundStyle}>
         <View style={{paddingRight: safePadding}}>
-          <Header/>
+          <Header />
         </View>
         <View
           style={{
@@ -90,8 +89,8 @@ function App(): React.JSX.Element {
             paddingBottom: safePadding,
           }}>
           <Section title="Step One">
-            Edit <Text style={styles.highlight}> Hola mundo!! </Text> to change this
-            screen and then come back to see your edits.
+            Edit <Text style={styles.highlight}> Hello world! </Text> to change
+            this screen and then come back to see your edits.
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
